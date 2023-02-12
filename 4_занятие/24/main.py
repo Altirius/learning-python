@@ -23,7 +23,7 @@ for value in data:
 collectedQty = 0
 if len(numbers) > 3:	
 	for i in range(1, len(numbers) - 2):
-		qty = numbers[i - 1] + numbers[i] + numbers[i + 1];
+		qty = numbers[i - 1] + numbers[i] + numbers[i + 1]
 		if qty > collectedQty:
 			collectedQty = qty
 else:
